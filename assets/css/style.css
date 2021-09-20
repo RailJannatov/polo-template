@@ -1,0 +1,556 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: relative;
+    padding: 15px 0;
+}
+
+.header-nav strong {
+    color: #fff;
+    margin-left: 20px;
+    font-weight: 209px;
+}
+
+.header-nav .col-3 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+
+}
+
+#main-top .slider {
+    padding-bottom: 100px;
+    padding-top: 120px;
+    text-align: center;
+
+}
+
+.header-slider {
+    left: 36%;
+    top: 53%;
+}
+
+
+#main-top {
+    width: 100%;
+    background: khaki;
+    background-image: url(../image/interior.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.slider .image-title h2 {
+    font-size: 80px;
+    color: #fff;
+}
+
+.slider .image-title p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.header-slider .image-title span {
+
+    font-size: 10px;
+}
+
+.col-3 {
+    width: calc(100%/12*3);
+}
+
+.col-8 {
+    width: calc(100%/12*8);
+}
+
+.col-6 {
+    width: calc(100%/12*6);
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+.col-9 {
+    width: calc(100%/12*9);
+    height: 20px;
+}
+
+.col-4 {
+    width: calc(100%/12*4);
+}
+
+
+#portfolio .container .col-8 {
+    width: calc(100%/12*8);
+}
+
+#portfolio .container .col-4 {
+    width: calc(100%/12*4);
+}
+
+#portfolio {
+    padding: 80px 0;
+
+}
+
+#portfolio .portfolio-title h2 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+#portfolio .portfolio-title p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #777;
+}
+
+#portfolio .section-title {
+    margin-bottom: 25px;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.right {
+    text-align: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.left {
+    float: left
+}
+
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 1194px;
+    margin: 0 auto;
+}
+
+.container .logo-title {
+    width: 20px;
+    background-color: blue;
+    color: #fff;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    margin: 8px 20px 0 0;
+    text-align: center;
+    width: 40px;
+}
+
+#polo-about .polo-about-paragraph {
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+#polo-about .padding-top {
+    padding: 169px 0;
+}
+
+#polo-about .polo-about-subtitle {
+    font-size: 13px;
+    font-style: italic;
+}
+
+
+#polo-about {
+    padding: 80px 0;
+}
+
+#polo-about h5 {
+    font-size: 20px;
+}
+
+.text-align-center {
+    padding-top: 75px;
+    padding-left: 99px;
+    text-align: center;
+
+}
+
+.background-image {
+    background-image: url(/assets/image/7.jpg);
+}
+
+.background-image .title {
+    margin-left: 230px;
+    padding-top: 34px;
+    padding-bottom: 26px;
+}
+
+.background-image .title p {
+    margin-top: 6px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.background-image .title h4 {
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.background-image .title button {
+    margin-top: 20px;
+}
+
+#info {
+    background-image: url(/assets/image/5.jpg);
+    height: 250px;
+}
+
+#info .info-items {
+    padding-top: 100px;
+    text-align: center;
+}
+
+#info .info-items h4 {
+    font-size: 50px;
+    color: #fff;
+}
+
+#info .info-items p {
+    color: #fff;
+}
+
+#service .service-title {
+    text-align: center;
+    padding: 66px 255px;
+}
+
+#service .service-title h2 {
+    font-size: 48px;
+}
+
+#service i {
+    font-size: 35px;
+}
+
+#meet-team {
+    margin-top: 145px;
+    background-color: #f7f9fb;
+}
+
+#meet-team .meet-team-title {
+    text-align: center;
+}
+
+#meet-team img {
+    border-radius: 50%;
+}
+
+#meet-team .meet-team-title p {
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+
+#meet-team h5 {
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+#meet-team img {
+    width: 200px;
+    height: 200px;
+}
+
+#meet-team .container .row {
+    margin: 0 -25px;
+}
+
+
+.button {
+    font-family: poppins, sans-serif;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    text-decoration: none;
+    outline: none;
+    padding: 12px 18px;
+    position: relative;
+    text-transform: uppercase;
+    background-color: #2250fc;
+    border-color: #2250fc;
+    border-width: 1px;
+    border-style: solid;
+    color: #fff;
+    transition: all .3s;
+    margin-bottom: 6px;
+    outline: none;
+    line-height: 14px;
+    cursor: pointer;
+}
+
+.button.button-variant-2 {
+    border-radius: 2em !important;
+    display: inline-block;
+}
+
+.button.button-white {
+    border-color: #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
+.button.button-white-contained {
+    background-color: #fff;
+    border-color: #e6e8eb;
+    color: #4c5667;
+    border-radius: 30px;
+    box-shadow: 0 4px 16px #efefef;
+}
+
+.center {
+    text-align: center;
+}
+
+.icon-border {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#service .service-list .service-list-item i {
+
+    position: absolute;
+    font-size: 35px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#about-company {
+    text-align: center;
+    margin-top: 125px;
+}
+
+#about-company .container .company-title h4 {
+    font-size: 34px;
+    margin-top: 15px;
+}
+
+#about-company .container .company-title h6 {
+    font-size: 20px;
+}
+
+#about-company .container .company-title p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#about-company .html {
+    width: 340px;
+    height: 10px;
+    background-color: blue;
+}
+
+#about-company .html-title {
+    text-align: start;
+}
+
+#about-company .html-paragraph,
+.html-procent {
+    display: inline-block;
+}
+
+#about-company .html-procent {
+    margin-left: 255px;
+}
+
+#about-company .css-title .css-paragraph,
+.css-procent {
+    display: inline-block;
+}
+
+#about-company .jquery-procent,
+.mysql-procent,
+.php-procent {
+    display: inline-block;
+}
+
+#about-company .jquery-paragraph,
+.php-paragraph,
+.mysql-paragraph {
+    display: inline-block;
+}
+
+#about-company .css-title {
+    text-align: start;
+}
+
+#about-company .css,
+.jquery,
+.mysql,
+.php {
+    background-color: gray;
+    width: 340px;
+    height: 10px;
+}
+
+#about-company .css-title .css-procent {
+    margin-left: 260px;
+
+}
+
+#about-company .jquery-procent,
+.mysql-procent,
+.php-procent {
+    margin-left: 190px;
+}
+
+#about-company .css-title .css-color {
+    background-color: blue;
+    width: 306px;
+    height: 10px;
+}
+
+#about-company .jquery-title .jquery-color {
+    background-color: blue;
+    width: 287px;
+    height: 10px;
+}
+
+#about-company .mysql-title .mysql-color {
+    background-color: blue;
+    width: 256px;
+    height: 10px;
+}
+
+#about-company .php-title .php-color {
+    background-color: blue;
+    width: 245px;
+    height: 10px;
+}
+
+#about-company .items {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+#about-company .lifestyle-items img {
+    height: 60px;
+    width: 80px;
+    float: left;
+}
+
+#about-company .lifestyle-items .lifestyle {
+    padding: 0 20px;
+}
+
+#about-company .lifestyle-items .lifestyle {
+    height: 80px;
+}
+
+#form {
+    margin-top: 60px;
+    background-image: url(/assets/image/form-background-image.png);
+}
+
+#form .col-6 {
+    margin-top: 20px;
+}
+
+#form ul li {
+    margin-right: 15px;
+}
+
+#form strong {
+    margin-top: 27px;
+    display: inline-block;
+    font-size: 21px;
+}
+
+#subscribe {
+    background-color: blue;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+#subscribe .title h4 {
+    color: #fff;
+}
+
+#subscribe p {
+    color: #fff;
+}
+
+#subscribe .title {
+    margin: 0 483px;
+}
+
+#subscribe .title p {
+    font-size: 10px;
+    margin-top: 12px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p,
+button {
+    margin-top: 15px;
+}
+
+footer ul {
+    margin-top: 50px;
+}
+
+footer ul li {
+    margin-top: 15px;
+
+}
+
+footer h6 {
+    font-size: 20px;
+}
+
+footer .copyright {
+    background-color: rgb(134, 131, 131);
+    height: 85px;
+    padding: 15px 0;
+}
+
+footer .copyright .copyright-title {
+    margin-top: 17px;
+    text-align: center;
+}
